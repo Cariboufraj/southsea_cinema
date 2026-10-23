@@ -22,7 +22,9 @@ class MovieListing extends StatelessWidget {
               Text(
                 "Friends",
                 style: TextStyle(fontSize: 40),
-              )
+              ),
+              Text("agsdgfdgh"),
+              
             ],
           )),
     );
