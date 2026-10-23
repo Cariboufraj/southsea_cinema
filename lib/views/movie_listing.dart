@@ -16,8 +16,15 @@ class MovieListing extends StatelessWidget {
       ),
       drawer: const NavDrawer(),
       body: Container(
-        child: const SizedBox.shrink()
-      ),
+          padding: EdgeInsets.all(40),
+          child: Column(
+            children: [
+              Text(
+                "Friends",
+                style: TextStyle(fontSize: 40),
+              )
+            ],
+          )),
     );
   }
 }
